@@ -78,7 +78,7 @@ image::screenshots/import-export-document-in-google-drive.png[Import Export Docu
 
 === (2) Editor
 
-This is for writing down your thoughts. +
+This is for writing down your thoughts.
 
 image::screenshots/editor-overview.png[Editor]
 
