@@ -1,0 +1,276 @@
+
+= Graph Paper User Guide
+
+== Introduction
+
+image::screenshots/an-example-map.png[Graph Paper]
+
+=== Overview
+
+Graph Paper is an idea organizing application such as mind mapping with handwriting for Android tablets.
+
+
+=== Key Features
+
+* Directly channel your thoughts using Finger or Stylus
+* Multiple mindmaps ( central nodes ) in one document
+* PDF Export (Premium Subscription)
+
+
+=== Requirements
+
+* Android 4.4 Kitkat or newer.
+* An Android tablet with S-Pen support
+
+
+[NOTE]
+This app is designed for Stylus such as S-Pen. +
+If your android tablet does not have Stylus support, you can choose Non S-Pen mode.
+
+
+=== Installation
+
+Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] app on Google Play.
+
+
+=== Getting help
+
+If you have any questions, please https://www.mindboardapps.com/contact.html[make contact].
+And also your feedback will be much appreciated.
+
+To get update information, see 
+https://www.facebook.com/mindboardapps[Facebook] / https://twitter.com/mindboard/[Twitter].
+
+
+== Using Graph Paper
+
+=== Overview
+
+There are three screens.
+
+- (1) File Manager
+- (2) Editor
+- (3) Settings
+
+
+
+=== (1) File Manager
+
+This is for document management.
+
+image::screenshots/file-manager-overview.png[File Manager]
+
+* image:icons/gp_new.png[New Document] Add New document
+* image:icons/gp_copy.png[Copy Document] Copy selected document
+* image:icons/gp_pin.png[Pin Document]  Pin selected document
+* image:icons/gp_delete.png[Delete Document] Delete selected document
+* image:icons/gp_menu.png[Menu] Menu
+
+
+==== Menu
+
+image::screenshots/import-export-document-in-google-drive.png[Import Export Document]
+
+* image:icons/gp_cloud.png[Import Document] Import document from Google Drive
+* image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
+
+
+=== (2) Editor
+
+This is for writing down your thoughts. +
+
+image::screenshots/editor-overview.png[Editor]
+
+When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them, use *with Finger*.
+
+* Writing down your thoughts with strokes ( *Stylus* )
+* Deleting strokes ( *Stylus* )
+
+* Zoom and Scroll (*Two Fingers*)
+* Zoom in (*Double Tap with One Finger*)
+* Making Strokes Group
+* Moving group 
+* Linking groups
+* Ungroup
+
+
+==== Creating Temporary Group and Persistent Group
+
+Step 1) There are some strokes
+
+image::screenshots/tmp-grouping-step-1.png[Grouping Step 1]
+
+
+Step 2) Lasso strokes with Finger
+
+image::screenshots/tmp-grouping-step-2.png[Grouping Step 2]
+
+
+Step 3) These strokes are converted to a temporary group
+
+image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
+
+[NOTE]
+You can move a temporary group with finger.
+
+
+Step 4) (Optional) In order to convert a temporary group to a persistent group, long press this temporary group with finger
+
+image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 4]
+
+[NOTE]
+You can also convert with *group button* image:icons/group.png[Group] on the left bottom toolbar.
+
+
+==== Ungrouping Group
+
+Step 1) Tap a group to make it selected 
+
+image::screenshots/ungrouping-step-1.png[Ungrouping Step 1]
+
+
+Step 2) Tap the *Ungroup* image:icons/ungroup.png[Ungroup] to ungroup
+
+image::screenshots/ungrouping-step-3.png[Ungrouping Step 1]
+
+
+[NOTE] 
+The *Ungroup* image:icons/ungroup.png[Ungroup] is located on the left bottom toolbar. +
+You can also use gesture to ungroup.
+
+
+==== Ungrouping Group with gesture
+
+Step 1) There is a group to ungroup
+
+image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture Step 1]
+
+
+Step 2) Stroke on this group *with Finger* vertically
+
+image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 2]
+
+
+Step 3) Make it ungrouped
+
+image::screenshots/ungrouping-with-gesture-step-3.png[Ungrouping with gesture Step 3]
+
+
+==== Creating Link Groups
+
+Step 1) There are some groups
+
+image::screenshots/linking-step-1.png[Linking Step 1]
+
+
+Step 2) Tap a source group to select
+
+image::screenshots/linking-step-2.png[Linking Step 2]
+
+
+Step 3) Start dragging *Link Handle* on the source group
+
+image::screenshots/linking-step-3.png[Linking Step 3]
+
+[NOTE]
+Two gray dot *Link Handles* are located on group border left and right side.
+
+
+Step 4) Drop it on a destination group
+
+image::screenshots/linking-step-4.png[Linking Step 4]
+
+
+Step 5) Make them linked
+
+image::screenshots/linking-step-5.png[Linking Step 5]
+
+
+==== Deleting Link
+
+Step 1) Tap a link (Arrow) to delete
+
+image::screenshots/deleting-link-step-1.png[Linking Step 1]
+
+
+Step 2) Tap the *Delete* image:icons/remove.png[Delete] to delete and make it deleted
+
+image::screenshots/deleting-link-step-3.png[Linking Step 3]
+
+[NOTE]
+The *Delete* image:icons/remove.png[Delete] is located on the left bottom toolbar.
+
+
+
+=== (3) Settings
+
+This is for Settings.
+
+image::screenshots/settings.png[Settings]
+
+* Paper Size
+* Background Type
+* Pen Stroke Width
+* Edit Toolbar
+* S-Pen Calibration
+* S-Pen Mode
+
+
+==== Paper Size
+
+You can choose paper size from A3(landscape) to A6(landscape).
+
+image::screenshots/settings_paper_size.png[Paper Size Settings]
+
+
+==== Pen Stroke Width
+
+You can choose a pen stroke width.
+
+image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
+
+
+==== S-Pen Calibration
+
+If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
+
+X coordinate ( -10 .. +10 )
+
+image::screenshots/settings_xcoordinate.png[Calibration X Settings]
+
+Y coordinate ( -10 .. +10 )
+
+image::screenshots/settings_ycoordinate.png[Calibration Y Settings]
+
+
+== Additional Information
+
+=== Premium Subscription 
+
+This app is free. +
+But additional useful features are provided with Premium Subscription.
+If you like this app, please consider to get Premium Subscription and support this app better.
+
+
+==== Additinal useful features for Premium
+
+For now, only the PDF export feature is provided.
+
+
+==== How to get Premium Subscription 
+
+Step 1) Go to the Editor Screen.
+
+Step 2) Select Menu and *Get Premium* menu item.
+
+image::screenshots/actionbar_pro.png[Get Premium]
+
+Step 3) Show Premium Subscription dialog and get it.
+
+
+==== Canceling the Premium Subscription
+
+Step 1) Go to the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
+
+Step 2) Tap the subscription *Cancel* button.
+

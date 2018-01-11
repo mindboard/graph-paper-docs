@@ -1,0 +1,13 @@
+= Graph Paper User Guide
+Tomoaki Oshima <https://www.mindboardapps.com/>
+:doctype: book
+:source-highlighter: coderay
+:toc: left
+:sectnums:
+:sectanchors:
+:icons: font
+:imagesdir: ../images
+
+This document explains Graph Paper Version 1.3.2.
+
+include::user-guide.adoc[]
