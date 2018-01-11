@@ -12,7 +12,7 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 
 === Key Features
 
-* Directly channel your thoughts using Finger or Stylus
+* Directly channel your thoughts using Stylus and Finger
 * Multiple mindmaps ( central nodes ) in one document
 * PDF Export (Premium Subscription)
 
@@ -25,7 +25,8 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 
 [NOTE]
 This app is designed for Stylus such as S-Pen. +
-If your android tablet does not have Stylus support, you can choose Non S-Pen mode.
+If your android tablet does not have Stylus support,
+you can choose *Non S-Pen Mode* in the settings.
 
 
 === Installation
@@ -61,9 +62,9 @@ This is for document management.
 image::screenshots/file-manager-overview.png[File Manager]
 
 * image:icons/gp_new.png[New Document] Add New document
-* image:icons/gp_copy.png[Copy Document] Copy selected document
-* image:icons/gp_pin.png[Pin Document]  Pin selected document
-* image:icons/gp_delete.png[Delete Document] Delete selected document
+* image:icons/gp_copy.png[Copy Document] Copy document
+* image:icons/gp_pin.png[Pin Document]  Pin document
+* image:icons/gp_delete.png[Delete Document] Delete document
 * image:icons/gp_menu.png[Menu] Menu
 
 
@@ -88,10 +89,10 @@ When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them,
 
 * Zoom and Scroll (*Two Fingers*)
 * Zoom in (*Double Tap with One Finger*)
-* Making Strokes Group
-* Moving group 
-* Linking groups
-* Ungroup
+* Make Group (*Finger*)
+* Move Group (*Finger*)
+* Link Groups (*Finger*)
+* Ungroup (*Finger*)
 
 
 ==== Creating Temporary Group and Persistent Group
@@ -114,12 +115,12 @@ image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
 You can move a temporary group with finger.
 
 
-Step 4) (Optional) In order to convert a temporary group to a persistent group, long press this temporary group with finger
+Step 4) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger
 
 image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 4]
 
 [NOTE]
-You can also convert with *group button* image:icons/group.png[Group] on the left bottom toolbar.
+You can also convert from a temporary group to a presistent one with *group button* image:icons/group.png[Group] on the bottom Edit Toolbar.
 
 
 ==== Ungrouping Group
@@ -135,7 +136,7 @@ image::screenshots/ungrouping-step-3.png[Ungrouping Step 1]
 
 
 [NOTE] 
-The *Ungroup* image:icons/ungroup.png[Ungroup] is located on the left bottom toolbar. +
+The *Ungroup* image:icons/ungroup.png[Ungroup] is located on the bottom Edit Toolbar. +
 You can also use gesture to ungroup.
 
 
@@ -146,7 +147,7 @@ Step 1) There is a group to ungroup
 image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture Step 1]
 
 
-Step 2) Stroke on this group *with Finger* vertically
+Step 2) Draw a line in a vertical direction on this group *with Finger*
 
 image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 2]
 
@@ -173,10 +174,10 @@ Step 3) Start dragging *Link Handle* on the source group
 image::screenshots/linking-step-3.png[Linking Step 3]
 
 [NOTE]
-Two gray dot *Link Handles* are located on group border left and right side.
+Two gray dots as *Link Handle* are located on the group border left and right side.
 
 
-Step 4) Drop it on a destination group
+Step 4) Drop it into another destination group
 
 image::screenshots/linking-step-4.png[Linking Step 4]
 
@@ -188,7 +189,7 @@ image::screenshots/linking-step-5.png[Linking Step 5]
 
 ==== Deleting Link
 
-Step 1) Tap a link (Arrow) to delete
+Step 1) Tap a link (arrow) to delete
 
 image::screenshots/deleting-link-step-1.png[Linking Step 1]
 
