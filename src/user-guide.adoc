@@ -91,6 +91,7 @@ When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them,
 * Zoom in (*Double Tap with One Finger*)
 * Make Group (*Finger*)
 * Move Group (*Finger*)
+* Copy Group
 * Ungroup (*Finger*)
 * Link Groups (*Finger*)
 * Delete Group (*Finger*)
