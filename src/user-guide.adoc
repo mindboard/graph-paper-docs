@@ -68,7 +68,7 @@ image::screenshots/file-manager-overview.png[File Manager]
 * image:icons/gp_menu.png[Menu] Menu
 
 
-==== Menu
+==== image:icons/gp_menu.png[Menu] Menu
 
 image::screenshots/import-export-document-in-google-drive.png[Import Export Document]
 
@@ -85,14 +85,28 @@ image::screenshots/editor-overview.png[Editor]
 When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them, use *with Finger*.
 
 * Writing down your thoughts with strokes ( *Stylus* )
-* Deleting strokes ( *Stylus* )
+* Erasing strokes ( *Stylus* )
 
 * Zoom and Scroll (*Two Fingers*)
 * Zoom in (*Double Tap with One Finger*)
 * Make Group (*Finger*)
 * Move Group (*Finger*)
-* Link Groups (*Finger*)
 * Ungroup (*Finger*)
+* Link Groups (*Finger*)
+* Delete Group (*Finger*)
+
+* menu
+** Export document
+** Settings
+** Get Premium
+
+
+==== Switch Tool, Pen or Erase
+
+Use the Switch Toolbar on the top right.
+
+image::screenshots/tool-switcher.png[Tool Switcher]
+
 
 
 ==== Creating Temporary Group and Persistent Group
@@ -120,7 +134,7 @@ Step 4) (Optional) In order to convert from a temporary group to a persistent on
 image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 4]
 
 [NOTE]
-You can also convert from a temporary group to a presistent one with *group button* image:icons/group.png[Group] on the bottom Edit Toolbar.
+You can also convert from a temporary group to a presistent one with *Group* image:icons/group.png[Group] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 
 ==== Ungrouping Group
@@ -130,31 +144,51 @@ Step 1) Tap a group to make it selected
 image::screenshots/ungrouping-step-1.png[Ungrouping Step 1]
 
 
-Step 2) Tap the *Ungroup* image:icons/ungroup.png[Ungroup] to ungroup
+Step 2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
 
 image::screenshots/ungrouping-step-3.png[Ungrouping Step 1]
 
 
 [NOTE] 
-The *Ungroup* image:icons/ungroup.png[Ungroup] is located on the bottom Edit Toolbar. +
-You can also use gesture to ungroup.
+You can also ungroup with finger gesture
 
 
-==== Ungrouping Group with gesture
+==== Ungrouping Group with finger gesture
 
 Step 1) There is a group to ungroup
 
 image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture Step 1]
 
 
-Step 2) Draw a line in a vertical direction on this group *with Finger*
+Step 2) Draw a line in *a vertical direction* on this group *with Finger*
 
 image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 2]
 
 
-Step 3) Make it ungrouped
+Step 3) Made it ungrouped
 
 image::screenshots/ungrouping-with-gesture-step-3.png[Ungrouping with gesture Step 3]
+
+
+==== Deleting Group
+
+Step 1) Tap a group to delete 
+
+Step 2) Tap *Delete* image:icons/remove.png[Delete]  of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
+
+
+[NOTE]
+You can also delete group with finger gesture
+
+
+==== Deleting Group with finger gesture
+
+Step 1) There is a group to ungroup
+
+Step 2) Draw a line in *a horizontally direction* on this group *with Finger*
+
+Step 3) Deleted it 
+
 
 
 ==== Creating Link Groups
@@ -203,6 +237,35 @@ The *Delete* image:icons/remove.png[Delete] is located on the left bottom toolba
 
 
 
+==== image:icons/gp_menu.png[Menu] Menu
+
+===== Export document
+
+image::screenshots/export-dialog.png[Export dialog]
+
+You can export active document to PNG / PDF. +
+There are two type trimming option *Fit to Content* and *Fit to Paper*. +
+
+[NOTE]
+The PDF export feature needs Premium Subscription. 
+In details, see *Premium Subscription* section in this document.
+
+
+
+===== Settings
+
+See the *(3) Settings* section in this document.
+
+
+===== Get Premium
+
+See the *Premium Subscription* section in this document.
+
+
+
+
+
+
 === (3) Settings
 
 This is for Settings.
@@ -229,6 +292,14 @@ image::screenshots/settings_paper_size.png[Paper Size Settings]
 You can choose a pen stroke width.
 
 image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
+
+
+==== Edit Toolbar
+
+You can choose the *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar] location *Left* or *Right* side.
+
+[NOTE]
+If you are left handedness, it were better choice the Left side.
 
 
 ==== S-Pen Calibration
