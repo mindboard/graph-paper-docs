@@ -322,7 +322,7 @@ image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 You can choose the *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar] location *Left* or *Right* side.
 
 [NOTE]
-If you are left handedness, it were better choice the Left side.
+If you are left handedness, it were better choice the Right side.
 
 
 ==== S-Pen Calibration
