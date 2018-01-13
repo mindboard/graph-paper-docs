@@ -101,12 +101,22 @@ When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them,
 ** Get Premium
 
 
-==== Switch Tool, Pen or Erase
+==== Switch Tool, Pen or Eraser
 
 Use the Switch Toolbar on the top right.
 
 image::screenshots/tool-switcher.png[Tool Switcher]
 
+
+==== Edit Toolbar
+
+image::screenshots/edit-toolbar-2.png[Edit Toolbar]
+
+* Group ( Make a temporary group to a persistent group ) / Ungroup
+* Copy group
+* Delete ( Delete group or link )
+* undo
+* redo
 
 
 ==== Creating Temporary Group and Persistent Group
@@ -285,6 +295,18 @@ image::screenshots/settings.png[Settings]
 You can choose paper size from A3(landscape) to A6(landscape).
 
 image::screenshots/settings_paper_size.png[Paper Size Settings]
+
+
+==== Background Type
+
+You can choose a background type.
+
+image::screenshots/background-type-choice-dialog.png[Background Type Chooser]
+
+
+Left is the *graph-paper* type background, right is the *dot-paper* type background.
+
+image::screenshots/background-types.png[Background Types]
 
 
 ==== Pen Stroke Width
