@@ -116,8 +116,8 @@ image::screenshots/edit-toolbar-2.png[Edit Toolbar]
 * Group ( Make a temporary group to a persistent group ) / Ungroup
 * Copy group
 * Delete ( Delete group or link )
-* undo
-* redo
+* Undo
+* Redo
 
 
 ==== Creating Temporary Group and Persistent Group
