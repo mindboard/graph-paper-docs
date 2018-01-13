@@ -3,7 +3,7 @@
 
 == Introduction
 
-image::screenshots/an-example-map.png[Graph Paper]
+image::screenshots/graph-paper-example.png[Graph Paper]
 
 === Overview
 
