@@ -255,7 +255,7 @@ The *Delete* image:icons/remove.png[Delete] is located on the left bottom toolba
 image::screenshots/export-dialog.png[Export dialog]
 
 You can export active document to PNG / PDF. +
-There are two type trimming option *Fit to Content* and *Fit to Paper*. +
+There are two types export area fitting option *Fit to Content* and *Fit to Paper*. +
 
 [NOTE]
 The PDF export feature needs Premium Subscription. 
