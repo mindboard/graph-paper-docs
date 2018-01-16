@@ -97,7 +97,7 @@ When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them,
 * Delete Group (*Finger*)
 
 * menu
-** Export document
+** Export
 ** Settings
 ** Get Premium
 
@@ -113,7 +113,7 @@ image::screenshots/tool-switcher.png[Tool Switcher]
 
 image::screenshots/edit-toolbar-2.png[Edit Toolbar]
 
-* Group ( Make a temporary group to a persistent group ) / Ungroup
+* Group ( Convert a temporary group to a persistent group ) / Ungroup
 * Copy group
 * Delete ( Delete group or link )
 * Undo
