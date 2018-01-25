@@ -202,7 +202,7 @@ Step 3) Deleted it
 
 
 
-==== Creating Link Groups
+==== Creating Links between Groups
 
 Step 1) There are some groups
 
@@ -214,12 +214,12 @@ Step 2) Tap a source group to select
 image::screenshots/linking-step-2.png[Linking Step 2]
 
 
-Step 3) Start dragging *Link Handle* on the source group
+Step 3) Start dragging a *Link Handle* on the source group
 
 image::screenshots/linking-step-3.png[Linking Step 3]
 
 [NOTE]
-Two gray dots as *Link Handle* are located on the group border left and right side.
+Two gray dots on a group border left and right side are *Link Handles*.
 
 
 Step 4) Drop it into another destination group
@@ -244,7 +244,7 @@ Step 2) Tap the *Delete* image:icons/remove.png[Delete] to delete and make it de
 image::screenshots/deleting-link-step-3.png[Linking Step 3]
 
 [NOTE]
-The *Delete* image:icons/remove.png[Delete] is located on the left bottom toolbar.
+The *Delete* image:icons/remove.png[Delete] is located on the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 
 
@@ -258,7 +258,7 @@ You can export active document to PNG / PDF. +
 There are two types export area fitting option *Fit to Content* and *Fit to Paper*. +
 
 [NOTE]
-The PDF export feature needs Premium Subscription. 
+The PDF export needs Premium Subscription. +
 In details, see *Premium Subscription* section in this document.
 
 
