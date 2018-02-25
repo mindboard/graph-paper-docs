@@ -52,7 +52,7 @@ There are three screens.
 
 - (1) File Manager
 - (2) Editor
-- (3) Settings
+- (3) Settings (Current Document Settings)
 
 
 
@@ -62,6 +62,7 @@ This is for document management.
 
 image::screenshots/file-manager-overview.png[File Manager]
 
+* image:icons/gp_editor.png[Go Back to Editor] Go Back to Editor
 * image:icons/gp_new.png[New Document] Add New document
 * image:icons/gp_copy.png[Copy Document] Copy document
 * image:icons/gp_pin.png[Pin Document]  Pin document
@@ -75,22 +76,36 @@ image::screenshots/menu-items-in-file-manager.png[Import Export Document and Set
 
 * image:icons/gp_cloud.png[Import Document] Import document from Google Drive
 * image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
-* Settings
+* image:icons/gp_settings.png[Settings] Settings (Global Settings)
 
 
-==== Settings
+==== Settings (Global Settings)
 
 This is for Application Global Settings.
 
 image::screenshots/global-settings.png[Global Settings]
 
-* Non S-Pen Mode
-** Check this on if your android device does not have stylus support.
+
+===== Edit Toolbar Location
+
+You can choose the *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar] location *Left* or *Right* side.
+
+
+
+
+===== S-Pen Calibration
+
+If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
+
+
+===== Non S-Pen Mode
+
+* Check this on if your android device does not have stylus support.
 
 
 === (2) Editor
 
-This is for writing down your thoughts.
+This is for writing down your thoughts and mind mapping.
 
 image::screenshots/editor-overview.png[Editor]
 
@@ -108,17 +123,22 @@ When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them,
 * Link Groups (*Finger*)
 * Delete Group (*Finger*)
 
-* menu
-** Export
-** Settings
-** Get Premium
+ActionBar
+
+* image:icons/gp_grid.png[Go To File Manager] Go to File Manager
+* image:icons/gp_new.png[New Document] Add New Document
+* image:icons/gp_export.png[Export Document] Export current active document as PNG or PDF
+* image:icons/gp_settings.png[Settings] Settings
+** See the *(3) Settings* section in this document.
+* image:icons/gp_fullscreen.png[Fullscreen] Fullscreen
 
 
-==== Switch Tool, Pen or Eraser
 
-Use the Switch Toolbar on the top right.
+==== Pen and Eraser Toolbar
 
-image::screenshots/tool-switcher.png[Tool Switcher]
+There is the Pen and Eraser Toolbar on the top left.
+
+image::screenshots/pen-and-eraser-tooler.png[Pen and Eraser Toolbar]
 
 
 ==== Edit Toolbar
@@ -260,9 +280,7 @@ The *Delete* image:icons/remove.png[Delete] is located on the bottom *Edit Toolb
 
 
 
-==== image:icons/gp_menu.png[Menu] Menu
-
-===== Export document
+==== image:icons/gp_export.png[Export PNG or PDF] Export current active document as PNG or PDF
 
 image::screenshots/export-dialog.png[Export dialog]
 
@@ -271,36 +289,20 @@ There are two types export area fitting option *Fit to Content* and *Fit to Pape
 
 [NOTE]
 The PDF export needs Premium Subscription. +
-In details, see *Premium Subscription* section in this document.
+In details, see the *Premium Subscription* section in this document.
 
 
 
-===== Settings
+=== (3) Settings (Current Document Settings)
 
-See the *(3) Settings* section in this document.
+This is for Current Document Settings.
 
-
-===== Get Premium
-
-See the *Premium Subscription* section in this document.
-
-
-
-
-
-
-=== (3) Settings
-
-This is for Settings.
-
-image::screenshots/settings.png[Settings]
+image::screenshots/current-document-settings.png[Current Document Settings]
 
 * Paper Size
 * Background Type
-* Pen Stroke Width
-* Edit Toolbar
-* S-Pen Calibration
-* S-Pen Mode
+* Pen-1 Stroke Width
+* Pen-2 Stroke Width
 
 
 ==== Paper Size
@@ -322,32 +324,20 @@ Left is the *graph-paper* type background, right is the *dot-paper* type backgro
 image::screenshots/background-types.png[Background Types]
 
 
-==== Pen Stroke Width
+==== Pen 1 and 2 Stroke Width
 
 You can choose a pen stroke width.
 
 image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 
 
-==== Edit Toolbar
 
-You can choose the *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar] location *Left* or *Right* side.
+===== Get Premium Subscription
 
-[NOTE]
-If you are left handedness, it were better choice the Right side.
+See the *Premium Subscription* section in this document.
 
 
-==== S-Pen Calibration
 
-If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
-
-X coordinate ( -10 .. +10 )
-
-image::screenshots/settings_xcoordinate.png[Calibration X Settings]
-
-Y coordinate ( -10 .. +10 )
-
-image::screenshots/settings_ycoordinate.png[Calibration Y Settings]
 
 
 == Additional Information
@@ -361,16 +351,16 @@ If you like this app, please consider to get Premium Subscription and support th
 
 ==== Additinal useful features for Premium
 
-For now, only the PDF export feature is provided.
+PDF export and multiple pen colors are provided for Premium Subscription.
 
 
 ==== How to get Premium Subscription 
 
 Step 1) Go to the Editor Screen.
 
-Step 2) Select Menu and *Get Premium* menu item.
+Step 2) Tap image:icons/gp_settings.png[Settings] Settings and tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
 
-image::screenshots/actionbar_pro.png[Get Premium]
+image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
 Step 3) Show Premium Subscription dialog and get it.
 

@@ -544,7 +544,7 @@ table.CodeRay td.code>pre{padding:0}
 <li><a href="#_overview_2">2.1. Overview</a></li>
 <li><a href="#_1_file_manager">2.2. (1) File Manager</a></li>
 <li><a href="#_2_editor">2.3. (2) Editor</a></li>
-<li><a href="#_3_settings">2.4. (3) Settings</a></li>
+<li><a href="#_3_settings_current_document_settings">2.4. (3) Settings (Current Document Settings)</a></li>
 </ul>
 </li>
 <li><a href="#_additional_information">3. Additional Information</a>
@@ -561,7 +561,7 @@ table.CodeRay td.code>pre{padding:0}
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
-<p>This document explains Graph Paper Version 1.3.2.</p>
+<p>This document explains Graph Paper Version 1.4.0.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -674,7 +674,7 @@ And also your feedback will be much appreciated.</p>
 <p>(2) Editor</p>
 </li>
 <li>
-<p>(3) Settings</p>
+<p>(3) Settings (Current Document Settings)</p>
 </li>
 </ul>
 </div>
@@ -691,6 +691,9 @@ And also your feedback will be much appreciated.</p>
 </div>
 <div class="ulist">
 <ul>
+<li>
+<p><span class="image"><img src="images/icons/gp_editor.png" alt="Go Back to Editor"></span> Go Back to Editor</p>
+</li>
 <li>
 <p><span class="image"><img src="images/icons/gp_new.png" alt="New Document"></span> Add New document</p>
 </li>
@@ -724,13 +727,13 @@ And also your feedback will be much appreciated.</p>
 <p><span class="image"><img src="images/icons/gp_cloud.png" alt="Export Document"></span> Export selected document in Google Drive</p>
 </li>
 <li>
-<p>Settings</p>
+<p><span class="image"><img src="images/icons/gp_settings.png" alt="Settings"></span> Settings (Global Settings)</p>
 </li>
 </ul>
 </div>
 </div>
 <div class="sect3">
-<h4 id="_settings"><a class="anchor" href="#_settings"></a>2.2.2. Settings</h4>
+<h4 id="_settings_global_settings"><a class="anchor" href="#_settings_global_settings"></a>2.2.2. Settings (Global Settings)</h4>
 <div class="paragraph">
 <p>This is for Application Global Settings.</p>
 </div>
@@ -739,10 +742,20 @@ And also your feedback will be much appreciated.</p>
 <img src="images/screenshots/global-settings.png" alt="Global Settings">
 </div>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p>Non S-Pen Mode</p>
+<div class="sect4">
+<h5 id="_edit_toolbar_location"><a class="anchor" href="#_edit_toolbar_location"></a>Edit Toolbar Location</h5>
+<div class="paragraph">
+<p>You can choose the <strong>Edit Toolbar</strong> <span class="image"><img src="images/icons/edit-toolbar-icons.png" alt="Edit Toolbar"></span> location <strong>Left</strong> or <strong>Right</strong> side.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_s_pen_calibration"><a class="anchor" href="#_s_pen_calibration"></a>S-Pen Calibration</h5>
+<div class="paragraph">
+<p>If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_non_s_pen_mode"><a class="anchor" href="#_non_s_pen_mode"></a>Non S-Pen Mode</h5>
 <div class="ulist">
 <ul>
 <li>
@@ -750,15 +763,13 @@ And also your feedback will be much appreciated.</p>
 </li>
 </ul>
 </div>
-</li>
-</ul>
 </div>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_2_editor"><a class="anchor" href="#_2_editor"></a>2.3. (2) Editor</h3>
 <div class="paragraph">
-<p>This is for writing down your thoughts.</p>
+<p>This is for writing down your thoughts and mind mapping.</p>
 </div>
 <div class="imageblock">
 <div class="content">
@@ -800,32 +811,45 @@ And also your feedback will be much appreciated.</p>
 <li>
 <p>Delete Group (<strong>Finger</strong>)</p>
 </li>
-<li>
-<p>menu</p>
+</ul>
+</div>
+<div class="paragraph">
+<p>ActionBar</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Export</p>
+<p><span class="image"><img src="images/icons/gp_grid.png" alt="Go To File Manager"></span> Go to File Manager</p>
 </li>
 <li>
-<p>Settings</p>
+<p><span class="image"><img src="images/icons/gp_new.png" alt="New Document"></span> Add New Document</p>
 </li>
 <li>
-<p>Get Premium</p>
+<p><span class="image"><img src="images/icons/gp_export.png" alt="Export Document"></span> Export current active document as PNG or PDF</p>
+</li>
+<li>
+<p><span class="image"><img src="images/icons/gp_settings.png" alt="Settings"></span> Settings</p>
+<div class="ulist">
+<ul>
+<li>
+<p>See the <strong>(3) Settings</strong> section in this document.</p>
 </li>
 </ul>
 </div>
+</li>
+<li>
+<p><span class="image"><img src="images/icons/gp_fullscreen.png" alt="Fullscreen"></span> Fullscreen</p>
 </li>
 </ul>
 </div>
 <div class="sect3">
-<h4 id="_switch_tool_pen_or_eraser"><a class="anchor" href="#_switch_tool_pen_or_eraser"></a>2.3.1. Switch Tool, Pen or Eraser</h4>
+<h4 id="_pen_and_eraser_toolbar"><a class="anchor" href="#_pen_and_eraser_toolbar"></a>2.3.1. Pen and Eraser Toolbar</h4>
 <div class="paragraph">
-<p>Use the Switch Toolbar on the top right.</p>
+<p>There is the Pen and Eraser Toolbar on the top left.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/screenshots/tool-switcher.png" alt="Tool Switcher">
+<img src="images/screenshots/pen-and-eraser-tooler.png" alt="Pen and Eraser Toolbar">
 </div>
 </div>
 </div>
@@ -1093,9 +1117,7 @@ The <strong>Delete</strong> <span class="image"><img src="images/icons/remove.pn
 </div>
 </div>
 <div class="sect3">
-<h4 id="_span_class_image_img_src_images_icons_gp_menu_png_alt_menu_span_menu_2"><a class="anchor" href="#_span_class_image_img_src_images_icons_gp_menu_png_alt_menu_span_menu_2"></a>2.3.10. <span class="image"><img src="images/icons/gp_menu.png" alt="Menu"></span> Menu</h4>
-<div class="sect4">
-<h5 id="_export_document"><a class="anchor" href="#_export_document"></a>Export document</h5>
+<h4 id="_span_class_image_img_src_images_icons_gp_export_png_alt_export_png_or_pdf_span_export_current_active_document_as_png_or_pdf"><a class="anchor" href="#_span_class_image_img_src_images_icons_gp_export_png_alt_export_png_or_pdf_span_export_current_active_document_as_png_or_pdf"></a>2.3.10. <span class="image"><img src="images/icons/gp_export.png" alt="Export PNG or PDF"></span> Export current active document as PNG or PDF</h4>
 <div class="imageblock">
 <div class="content">
 <img src="images/screenshots/export-dialog.png" alt="Export dialog">
@@ -1113,34 +1135,21 @@ There are two types export area fitting option <strong>Fit to Content</strong> a
 </td>
 <td class="content">
 The PDF export needs Premium Subscription.<br>
-In details, see <strong>Premium Subscription</strong> section in this document.
+In details, see the <strong>Premium Subscription</strong> section in this document.
 </td>
 </tr>
 </table>
 </div>
 </div>
-<div class="sect4">
-<h5 id="_settings_2"><a class="anchor" href="#_settings_2"></a>Settings</h5>
-<div class="paragraph">
-<p>See the <strong>(3) Settings</strong> section in this document.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_get_premium"><a class="anchor" href="#_get_premium"></a>Get Premium</h5>
-<div class="paragraph">
-<p>See the <strong>Premium Subscription</strong> section in this document.</p>
-</div>
-</div>
-</div>
 </div>
 <div class="sect2">
-<h3 id="_3_settings"><a class="anchor" href="#_3_settings"></a>2.4. (3) Settings</h3>
+<h3 id="_3_settings_current_document_settings"><a class="anchor" href="#_3_settings_current_document_settings"></a>2.4. (3) Settings (Current Document Settings)</h3>
 <div class="paragraph">
-<p>This is for Settings.</p>
+<p>This is for Current Document Settings.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/screenshots/settings.png" alt="Settings">
+<img src="images/screenshots/current-document-settings.png" alt="Current Document Settings">
 </div>
 </div>
 <div class="ulist">
@@ -1152,16 +1161,10 @@ In details, see <strong>Premium Subscription</strong> section in this document.
 <p>Background Type</p>
 </li>
 <li>
-<p>Pen Stroke Width</p>
+<p>Pen-1 Stroke Width</p>
 </li>
 <li>
-<p>Edit Toolbar</p>
-</li>
-<li>
-<p>S-Pen Calibration</p>
-</li>
-<li>
-<p>S-Pen Mode</p>
+<p>Pen-2 Stroke Width</p>
 </li>
 </ul>
 </div>
@@ -1196,7 +1199,7 @@ In details, see <strong>Premium Subscription</strong> section in this document.
 </div>
 </div>
 <div class="sect3">
-<h4 id="_pen_stroke_width"><a class="anchor" href="#_pen_stroke_width"></a>2.4.3. Pen Stroke Width</h4>
+<h4 id="_pen_1_and_2_stroke_width"><a class="anchor" href="#_pen_1_and_2_stroke_width"></a>2.4.3. Pen 1 and 2 Stroke Width</h4>
 <div class="paragraph">
 <p>You can choose a pen stroke width.</p>
 </div>
@@ -1205,44 +1208,10 @@ In details, see <strong>Premium Subscription</strong> section in this document.
 <img src="images/screenshots/settings_pen_stroke_width.png" alt="Pen Stroke Width Settings">
 </div>
 </div>
-</div>
-<div class="sect3">
-<h4 id="_edit_toolbar_2"><a class="anchor" href="#_edit_toolbar_2"></a>2.4.4. Edit Toolbar</h4>
+<div class="sect4">
+<h5 id="_get_premium_subscription"><a class="anchor" href="#_get_premium_subscription"></a>Get Premium Subscription</h5>
 <div class="paragraph">
-<p>You can choose the <strong>Edit Toolbar</strong> <span class="image"><img src="images/icons/edit-toolbar-icons.png" alt="Edit Toolbar"></span> location <strong>Left</strong> or <strong>Right</strong> side.</p>
-</div>
-<div class="admonitionblock note">
-<table>
-<tr>
-<td class="icon">
-<i class="fa icon-note" title="Note"></i>
-</td>
-<td class="content">
-If you are left handedness, it were better choice the Right side.
-</td>
-</tr>
-</table>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_s_pen_calibration"><a class="anchor" href="#_s_pen_calibration"></a>2.4.5. S-Pen Calibration</h4>
-<div class="paragraph">
-<p>If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.</p>
-</div>
-<div class="paragraph">
-<p>X coordinate ( -10 .. +10 )</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/screenshots/settings_xcoordinate.png" alt="Calibration X Settings">
-</div>
-</div>
-<div class="paragraph">
-<p>Y coordinate ( -10 .. +10 )</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="images/screenshots/settings_ycoordinate.png" alt="Calibration Y Settings">
+<p>See the <strong>Premium Subscription</strong> section in this document.</p>
 </div>
 </div>
 </div>
@@ -1262,7 +1231,7 @@ If you like this app, please consider to get Premium Subscription and support th
 <div class="sect3">
 <h4 id="_additinal_useful_features_for_premium"><a class="anchor" href="#_additinal_useful_features_for_premium"></a>3.1.1. Additinal useful features for Premium</h4>
 <div class="paragraph">
-<p>For now, only the PDF export feature is provided.</p>
+<p>PDF export and multiple pen colors are provided for Premium Subscription.</p>
 </div>
 </div>
 <div class="sect3">
@@ -1271,11 +1240,11 @@ If you like this app, please consider to get Premium Subscription and support th
 <p>Step 1) Go to the Editor Screen.</p>
 </div>
 <div class="paragraph">
-<p>Step 2) Select Menu and <strong>Get Premium</strong> menu item.</p>
+<p>Step 2) Tap <span class="image"><img src="images/icons/gp_settings.png" alt="Settings"></span> Settings and tap <span class="image"><img src="images/icons/gp_premium.png" alt="Premium"></span> <strong>Get Premium Subscription</strong> item.</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="images/screenshots/actionbar_pro.png" alt="Get Premium">
+<img src="images/screenshots/get-premium-subscription.png" alt="Get Premium Subscription">
 </div>
 </div>
 <div class="paragraph">
@@ -1297,7 +1266,7 @@ If you like this app, please consider to get Premium Subscription and support th
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2018-02-25 20:09:33 JST
+Last updated 2018-02-25 21:51:29 JST
 </div>
 </div>
 </body>
