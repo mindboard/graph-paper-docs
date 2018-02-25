@@ -15,6 +15,7 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 * Directly channel your thoughts using Stylus and Finger
 * Multiple mindmaps ( central nodes ) in one document
 * PDF Export (Premium Subscription)
+* Multiple Pen Colors (Premium Subscription)
 
 
 === Requirements
@@ -70,10 +71,21 @@ image::screenshots/file-manager-overview.png[File Manager]
 
 ==== image:icons/gp_menu.png[Menu] Menu
 
-image::screenshots/import-export-document-in-google-drive.png[Import Export Document]
+image::screenshots/menu-items-in-file-manager.png[Import Export Document and Settings]
 
 * image:icons/gp_cloud.png[Import Document] Import document from Google Drive
 * image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
+* Settings
+
+
+==== Settings
+
+This is for Application Global Settings.
+
+image::screenshots/global-settings.png[Global Settings]
+
+* Non S-Pen Mode
+** Check this on if your android device does not have stylus support.
 
 
 === (2) Editor
