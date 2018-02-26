@@ -100,7 +100,7 @@ If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen com
 
 ===== Non S-Pen Mode
 
-* Check this on if your android device does not have stylus support.
+* Check this item on if your android device does not have stylus support.
 
 
 === (2) Editor
@@ -230,7 +230,7 @@ Step 1) There is a group to ungroup
 
 Step 2) Draw a line in *a horizontally direction* on this group *with Finger*
 
-Step 3) Deleted it 
+Step 3) Made it deleted
 
 
 
