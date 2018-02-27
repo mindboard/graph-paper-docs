@@ -154,17 +154,17 @@ image::screenshots/edit-toolbar-2.png[Edit Toolbar]
 
 ==== Creating Temporary Group and Persistent Group
 
-Step 1) There are some strokes
+There are some strokes.
 
-image::screenshots/tmp-grouping-step-1.png[Grouping Step 1]
-
-
-Step 2) Lasso strokes with Finger
-
-image::screenshots/tmp-grouping-step-2.png[Grouping Step 2]
+image::screenshots/tmp-grouping-step-1.png[Grouping Step 0]
 
 
-Step 3) These strokes are converted to a temporary group
+(1) Lasso strokes with Finger.
+
+image::screenshots/tmp-grouping-step-2.png[Grouping Step 1]
+
+
+(2) These strokes are converted to a temporary group.
 
 image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
 
@@ -172,9 +172,9 @@ image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
 You can move a temporary group with finger.
 
 
-Step 4) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger
+(3) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger
 
-image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 4]
+image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 3]
 
 [NOTE]
 You can also convert from a temporary group to a presistent one with *Group* image:icons/group.png[Group] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
@@ -182,101 +182,98 @@ You can also convert from a temporary group to a presistent one with *Group* ima
 
 ==== Ungrouping Group
 
-Step 1) Tap a group to make it selected 
+(1) Tap a group. It is selected.
 
 image::screenshots/ungrouping-step-1.png[Ungrouping Step 1]
 
 
-Step 2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
+(2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
-image::screenshots/ungrouping-step-3.png[Ungrouping Step 1]
+image::screenshots/ungrouping-step-3.png[Ungrouping Step 2]
 
 
 [NOTE] 
-You can also ungroup with finger gesture
+You can also ungroup with finger gesture.
 
 
 ==== Ungrouping Group with finger gesture
 
-Step 1) There is a group to ungroup
+There is a group to ungroup.
 
-image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture Step 1]
+image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture]
 
+(1) Draw a line in *a vertical direction* on this group *with Finger*.
 
-Step 2) Draw a line in *a vertical direction* on this group *with Finger*
+image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 1]
 
-image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 2]
+This group is ungrouped.
 
-
-Step 3) Made it ungrouped
-
-image::screenshots/ungrouping-with-gesture-step-3.png[Ungrouping with gesture Step 3]
+image::screenshots/ungrouping-with-gesture-step-3.png[Ungrouping with gesture finish]
 
 
 ==== Deleting Group
 
-Step 1) Tap a group to delete 
+(1) Tap a group to delete. It is selected.
 
-Step 2) Tap *Delete* image:icons/remove.png[Delete]  of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
+(2) Tap *Delete* image:icons/remove.png[Delete] button of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
 
 
 [NOTE]
-You can also delete group with finger gesture
+You can also delete group with finger gesture.
 
 
 ==== Deleting Group with finger gesture
 
-Step 1) There is a group to ungroup
+There is a group to ungroup.
 
-Step 2) Draw a line in *a horizontally direction* on this group *with Finger*
-
-Step 3) Made it deleted
+(1) Draw a line in *a horizontally direction* on this group *with Finger*. This group is deleted.
 
 
 
 ==== Creating Links between Groups
 
-Step 1) There are some groups
+There are some groups.
 
-image::screenshots/linking-step-1.png[Linking Step 1]
-
-
-Step 2) Tap a source group to select
-
-image::screenshots/linking-step-2.png[Linking Step 2]
+image::screenshots/linking-step-1.png[Linking Step 0]
 
 
-Step 3) Start dragging a *Link Handle* on the source group
+(1) Tap a source group to select.
 
-image::screenshots/linking-step-3.png[Linking Step 3]
+image::screenshots/linking-step-2.png[Linking Step 1]
+
+
+(2) Start dragging a *Link Handle* on the source group.
+
+image::screenshots/linking-step-3.png[Linking Step 2]
+
 
 [NOTE]
 Two gray dots on a group border left and right side are *Link Handles*.
 
 
-Step 4) Drop it into another destination group
+(3) Drop it into another destination group.
 
-image::screenshots/linking-step-4.png[Linking Step 4]
+image::screenshots/linking-step-4.png[Linking Step 3]
 
 
-Step 5) Make them linked
+These groups are linked.
 
-image::screenshots/linking-step-5.png[Linking Step 5]
+image::screenshots/linking-step-5.png[Linking finish]
 
 
 ==== Deleting Link
 
-Step 1) Tap a link (arrow) to delete
+(1) Tap a link (arrow) to delete. It is selected.
 
 image::screenshots/deleting-link-step-1.png[Linking Step 1]
 
 
-Step 2) Tap the *Delete* image:icons/remove.png[Delete] to delete and make it deleted
+(2) Tap the *Delete* image:icons/remove.png[Delete] button to delete. It is deleted.
 
-image::screenshots/deleting-link-step-3.png[Linking Step 3]
+image::screenshots/deleting-link-step-3.png[Linking Step 2]
 
 [NOTE]
-The *Delete* image:icons/remove.png[Delete] is located on the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+The *Delete* image:icons/remove.png[Delete] button is located on the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 
 
@@ -356,18 +353,18 @@ PDF export and multiple pen colors are provided for Premium Subscription.
 
 ==== How to get Premium Subscription 
 
-Step 1) Go to the Editor Screen.
+(1) Go to the Editor Screen.
 
-Step 2) Tap image:icons/gp_settings.png[Settings] Settings and tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
+(2) Tap image:icons/gp_settings.png[Settings] Settings and tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
 
 image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
-Step 3) Show Premium Subscription dialog and get it.
+(3) Show Premium Subscription dialog and get it.
 
 
 ==== Canceling the Premium Subscription
 
-Step 1) Go to the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
+(1) Go to the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
 
-Step 2) Tap the subscription *Cancel* button.
+(2) Tap the subscription *Cancel* button.
 
