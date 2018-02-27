@@ -20,14 +20,14 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 
 === Requirements
 
-* Android 4.4 Kitkat or newer.
-* An Android tablet with S-Pen support
+* Android 4.4 Kitkat or newer
+* An Android tablet with S-Pen or Digitizer Stylus.
 
 
 [NOTE]
-This app is designed for Stylus such as S-Pen. +
-If your android tablet does not have Stylus support,
-you can choose *Non S-Pen Mode* in the settings.
+This app is designed for Digitizer Stylus such as S-Pen. +
+If your android device does not have Digitizer Stylus support,
+you can choose *Non S-Pen Mode* in Settings.
 
 
 === Installation
@@ -52,7 +52,7 @@ There are three screens.
 
 - (1) File Manager
 - (2) Editor
-- (3) Settings (Current Document Settings)
+- (3) Settings (Current Settings)
 
 
 
@@ -128,8 +128,8 @@ ActionBar
 * image:icons/gp_grid.png[Go To File Manager] Go to File Manager
 * image:icons/gp_new.png[New Document] Add New Document
 * image:icons/gp_export.png[Export Document] Export current active document as PNG or PDF
-* image:icons/gp_settings.png[Settings] Settings
-** See the *(3) Settings* section in this document.
+* image:icons/gp_settings.png[Settings] Go to Settings
+** See *(3) Settings* section in this document.
 * image:icons/gp_fullscreen.png[Fullscreen] Fullscreen
 
 
@@ -172,12 +172,12 @@ image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
 You can move a temporary group with finger.
 
 
-(3) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger
+(3) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger.
 
 image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 3]
 
 [NOTE]
-You can also convert from a temporary group to a presistent one with *Group* image:icons/group.png[Group] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+You can also convert from a temporary group to a presistent one with *Group* image:icons/group.png[Group] of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 
 ==== Ungrouping Group
@@ -187,7 +187,7 @@ You can also convert from a temporary group to a presistent one with *Group* ima
 image::screenshots/ungrouping-step-1.png[Ungrouping Step 1]
 
 
-(2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+(2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 image::screenshots/ungrouping-step-3.png[Ungrouping Step 2]
 
@@ -268,12 +268,12 @@ image::screenshots/linking-step-5.png[Linking finish]
 image::screenshots/deleting-link-step-1.png[Linking Step 1]
 
 
-(2) Tap the *Delete* image:icons/remove.png[Delete] button to delete. It is deleted.
+(2) Tap the *Delete* image:icons/remove.png[Delete] button. It is deleted.
 
 image::screenshots/deleting-link-step-3.png[Linking Step 2]
 
 [NOTE]
-The *Delete* image:icons/remove.png[Delete] button is located on the bottom *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+The *Delete* image:icons/remove.png[Delete] button is located on *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
 
 
 
@@ -290,11 +290,11 @@ In details, see the *Premium Subscription* section in this document.
 
 
 
-=== (3) Settings (Current Document Settings)
+=== (3) Settings (Current Settings)
 
-This is for Current Document Settings.
+This is for Current Settings.
 
-image::screenshots/current-document-settings.png[Current Document Settings]
+image::screenshots/current-document-settings.png[Current Settings]
 
 * Paper Size
 * Background Type
@@ -355,11 +355,16 @@ PDF export and multiple pen colors are provided for Premium Subscription.
 
 (1) Go to the Editor Screen.
 
-(2) Tap image:icons/gp_settings.png[Settings] Settings and tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
+(2) Tap image:icons/gp_settings.png[Settings] Settings button. Settings Screen is shown.
+
+image::screenshots/current-document-settings.png[Current Settings]
+
+
+(3) Tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
 
 image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
-(3) Show Premium Subscription dialog and get it.
+A description Premium Subscription Purchase dialog is shown.
 
 
 ==== Canceling the Premium Subscription
