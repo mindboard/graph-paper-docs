@@ -355,16 +355,15 @@ PDF export and multiple pen colors are provided for Premium Subscription.
 
 (1) Go to the Editor Screen.
 
-(2) Tap image:icons/gp_settings.png[Settings] Settings button. Settings Screen is shown.
+(2) Tap image:icons/gp_settings.png[Settings] Settings button. The Settings Screen opens.
 
 image::screenshots/current-document-settings.png[Current Settings]
 
-
-(3) Tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
+(3) Tap image:icons/gp_premium.png[Premium] the *Get Premium Subscription* item.
 
 image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
-A description Premium Subscription Purchase dialog is shown.
+(4) The Premium Subscription Dialog opens and get it.
 
 
 ==== Canceling the Premium Subscription
