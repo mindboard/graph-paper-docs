@@ -8,6 +8,6 @@ Tomoaki Oshima <https://www.mindboardapps.com/>
 :icons: font
 :imagesdir: ../images
 
-This document explains Graph Paper Version 1.4.0.
+This document explains Graph Paper Version 1.4.1.
 
 include::user-guide.adoc[]

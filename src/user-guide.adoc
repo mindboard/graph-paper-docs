@@ -50,60 +50,13 @@ https://www.facebook.com/mindboardapps[Facebook] / https://twitter.com/mindboard
 
 There are three screens.
 
-- (1) File Manager
-- (2) Editor
-- (3) Settings (Current Settings)
+- (1) Editor
+- (2) File Manager
+- (3) Settings 
 
 
 
-=== (1) File Manager
-
-This is for document management.
-
-image::screenshots/file-manager-overview.png[File Manager]
-
-* image:icons/gp_editor.png[Go Back to Editor] Go Back to Editor
-* image:icons/gp_new.png[New Document] Add New document
-* image:icons/gp_copy.png[Copy Document] Copy document
-* image:icons/gp_pin.png[Pin Document]  Pin document
-* image:icons/gp_delete.png[Delete Document] Delete document
-* image:icons/gp_menu.png[Menu] Menu
-
-
-==== image:icons/gp_menu.png[Menu] Menu
-
-image::screenshots/menu-items-in-file-manager.png[Import Export Document and Settings]
-
-* image:icons/gp_cloud.png[Import Document] Import document from Google Drive
-* image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
-* image:icons/gp_settings.png[Settings] Settings (Global Settings)
-
-
-==== Settings (Global Settings)
-
-This is for Application Global Settings.
-
-image::screenshots/global-settings.png[Global Settings]
-
-
-===== Edit Toolbar Location
-
-You can choose the *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar] location *Left* or *Right* side.
-
-
-
-
-===== S-Pen Calibration
-
-If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
-
-
-===== Non S-Pen Mode
-
-* Check this item on if your android device does not have stylus support.
-
-
-=== (2) Editor
+=== (1) Editor
 
 This is for writing down your thoughts and mind mapping.
 
@@ -128,8 +81,7 @@ ActionBar
 * image:icons/gp_grid.png[Go To File Manager] Go to File Manager
 * image:icons/gp_new.png[New Document] Add New Document
 * image:icons/gp_export.png[Export Document] Export current active document as PNG or PDF
-* image:icons/gp_settings.png[Settings] Go to Settings
-** See *(3) Settings* section in this document.
+* image:icons/gp_settings.png[Settings] Go to Current Page Settings ( See the *Current Page Settings* section. )
 * image:icons/gp_fullscreen.png[Fullscreen] Fullscreen
 
 
@@ -232,7 +184,7 @@ There is a group to ungroup.
 
 ==== Creating Links between Groups
 
-There are some groups.
+There are two or more groups.
 
 image::screenshots/linking-step-1.png[Linking Step 0]
 
@@ -242,7 +194,7 @@ image::screenshots/linking-step-1.png[Linking Step 0]
 image::screenshots/linking-step-2.png[Linking Step 1]
 
 
-(2) Start dragging a *Link Handle* on the source group.
+(2) Start dragging a *Link Handle* on the source group with Finger.
 
 image::screenshots/linking-step-3.png[Linking Step 2]
 
@@ -289,41 +241,91 @@ The PDF export needs Premium Subscription. +
 In details, see the *Premium Subscription* section in this document.
 
 
+=== (2) File Manager
 
-=== (3) Settings (Current Settings)
+This is for document management.
 
-This is for Current Settings.
+image::screenshots/file-manager-overview.png[File Manager]
 
-image::screenshots/current-document-settings.png[Current Settings]
+* image:icons/gp_editor.png[Go Back to Editor] Go Back to Editor
+* image:icons/gp_new.png[New Document] Add New document
+* image:icons/gp_copy.png[Copy Document] Copy document
+* image:icons/gp_pin.png[Pin Document]  Pin document
+* image:icons/gp_delete.png[Delete Document] Delete document
+* image:icons/gp_menu.png[Menu] Menu
 
-* Paper Size
-* Background Type
-* Pen-1 Stroke Width
-* Pen-2 Stroke Width
+
+==== image:icons/gp_menu.png[Menu] Menu
+
+image::screenshots/menu-items-in-file-manager.png[Import Export Document and Settings]
+
+* image:icons/gp_cloud.png[Import Document] Import document from Google Drive
+* image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
+* image:icons/gp_settings.png[Settings] Settings (see the *Application Settings* section)
 
 
-==== Paper Size
+
+=== (3) Settings
+
+There two Settings screen.
+
+* One is the Current Page Settings.
+** [ Editor -> image:icons/gp_settings.png[Settings] Settings Button -> Current Page Settings]
+* Another is the Application Settings. 
+** [ File Manager -> image:icons/gp_menu.png[Menu] Menu -> image:icons/gp_settings.png[Settings] Settings Menu Item -> Application Settings]
+
+
+
+
+
+==== Current Page Settings
+
+This is for Current Page Settings.
+
+image::screenshots/gpp-current-settings.png[Current Settings]
+
+
+
+===== Paper Size
 
 You can choose paper size from A3(landscape) to A6(landscape).
 
 image::screenshots/settings_paper_size.png[Paper Size Settings]
 
 
-==== Background Type
+===== Background Type
 
-You can choose a background type.
+You can choose a background paper type.
 
 image::screenshots/background-type-choice-dialog.png[Background Type Chooser]
 
 
-Left is the *graph-paper* type background, right is the *dot-paper* type background.
+Graph Paper :
 
-image::screenshots/background-types.png[Background Types]
+image::screenshots/background-type-squared.png[Background Type Square]
+
+Dot Paper :
+
+image::screenshots/background-type-dotted.png[Background Type Dotted]
 
 
-==== Pen 1 and 2 Stroke Width
+===== Background Color
 
-You can choose a pen stroke width.
+You can choose a paper background color.
+
+image::screenshots/background-color-chooser.png[Background Color Chooser]
+
+
+===== Pen-1 and Pen-2 Color
+
+You can choose a pen color.  
+
+image::screenshots/gpp-pen-color-chooser.png[Pen Color Chooser]
+
+
+===== Pen-1 and Pen-2 Thickness
+
+You can choose a pen thickness.  
 
 image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 
@@ -332,6 +334,38 @@ image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 ===== Get Premium Subscription
 
 See the *Premium Subscription* section in this document.
+
+
+
+==== Application Settings
+
+This is for Application Settings.
+
+image::screenshots/gpp-global-settings.png[Global Settings]
+
+===== Page Settings (Default)
+
+* Paper Size
+* Background Type
+* Background Color
+
+
+===== Pen Settings (Default)
+
+* Pen1 and Pen2
+** Thickness
+** Color
+
+
+===== Global Settings
+
+* Edit Toolbar Location
+** You can choose the *Edit Toolbar* location *Left* or *Right* side.
+* S-Pen Calibration
+** If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
+* Non S-Pen Mode
+** Check this item on if your android device does not have stylus support.
+
 
 
 
@@ -348,7 +382,10 @@ If you like this app, please consider to get Premium Subscription and support th
 
 ==== Additinal useful features for Premium
 
-PDF export and multiple pen colors are provided for Premium Subscription.
+These features are provided for Premium Subscription.
+
+* PDF export
+* 2nd Pen
 
 
 ==== How to get Premium Subscription 
@@ -357,7 +394,7 @@ PDF export and multiple pen colors are provided for Premium Subscription.
 
 (2) Tap image:icons/gp_settings.png[Settings] Settings button. The Settings Screen opens.
 
-image::screenshots/current-document-settings.png[Current Settings]
+image::screenshots/gpp-current-settings.png[Current Settings]
 
 (3) Tap image:icons/gp_premium.png[Premium] the *Get Premium Subscription* item.
 
