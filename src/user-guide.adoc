@@ -267,7 +267,7 @@ image::screenshots/menu-items-in-file-manager.png[Import Export Document and Set
 
 === (3) Settings
 
-There two Settings screen.
+There are two Settings screens.
 
 * One is the Current Page Settings.
 ** [ Editor -> image:icons/gp_settings.png[Settings] Settings Button -> Current Page Settings]
