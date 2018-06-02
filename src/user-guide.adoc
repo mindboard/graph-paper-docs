@@ -121,10 +121,10 @@ image::screenshots/tmp-grouping-step-2.png[Grouping Step 1]
 image::screenshots/tmp-grouping-step-3.png[Grouping Step 3]
 
 [NOTE]
-You can move a temporary group with finger.
+You can move and resize this temporary group with finger.
 
 
-(3) (Optional) In order to convert from a temporary group to a persistent one, long press this temporary group with finger.
+(3) (Optional) In order to make this temporary group persistent, do long press with finger.
 
 image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 3]
 
