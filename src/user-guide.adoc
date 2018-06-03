@@ -26,8 +26,7 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 
 [NOTE]
 This app is designed for Digitizer Stylus such as S-Pen. +
-If your android device does not have Digitizer Stylus support,
-you can choose *Non S-Pen Mode* in Settings.
+If you use this app without Digitizer Stylus, choose *Non S-Pen Mode* option in Settings.
 
 
 === Installation
