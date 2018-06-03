@@ -31,7 +31,7 @@ If you use this app without Digitizer Stylus, choose *Non S-Pen Mode* option in 
 
 === Installation
 
-Get the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] app on Google Play.
+Get https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] app on Google Play.
 
 
 === Getting help
@@ -80,14 +80,14 @@ ActionBar
 * image:icons/gp_grid.png[Go To File Manager] Go to File Manager
 * image:icons/gp_new.png[New Document] Add New Document
 * image:icons/gp_export.png[Export Document] Export current active document as PNG or PDF
-* image:icons/gp_settings.png[Settings] Go to Current Page Settings ( See the *Current Page Settings* section. )
+* image:icons/gp_settings.png[Settings] Go to Current Page Settings ( See *Current Page Settings* section. )
 * image:icons/gp_fullscreen.png[Fullscreen] Fullscreen
 
 
 
 ==== Pen and Eraser Toolbar
 
-There is the Pen and Eraser Toolbar on the top left.
+There is Pen and Eraser Toolbar on the top left.
 
 image::screenshots/pen-and-eraser-tooler.png[Pen and Eraser Toolbar]
 
@@ -193,13 +193,9 @@ image::screenshots/linking-step-1.png[Linking Step 0]
 image::screenshots/linking-step-2.png[Linking Step 1]
 
 
-(2) Start dragging a *Link Handle* on the source group with Finger.
+(2) Start dragging a *Link Handle* on this source group with Finger.
 
 image::screenshots/linking-step-3.png[Linking Step 2]
-
-
-[NOTE]
-Two gray dots on a group border left and right side are *Link Handles*.
 
 
 (3) Drop it into another destination group.
@@ -237,7 +233,7 @@ There are two types export area fitting option *Fit to Content* and *Fit to Pape
 
 [NOTE]
 The PDF export needs Premium Subscription. +
-In details, see the *Premium Subscription* section in this document.
+In details, see *Premium Subscription* section in this document.
 
 
 === (2) File Manager
@@ -260,7 +256,7 @@ image::screenshots/menu-items-in-file-manager.png[Import Export Document and Set
 
 * image:icons/gp_cloud.png[Import Document] Import document from Google Drive
 * image:icons/gp_cloud.png[Export Document] Export selected document in Google Drive
-* image:icons/gp_settings.png[Settings] Settings (see the *Application Settings* section)
+* image:icons/gp_settings.png[Settings] Settings (see *Application Settings* section)
 
 
 
@@ -268,9 +264,9 @@ image::screenshots/menu-items-in-file-manager.png[Import Export Document and Set
 
 There are two Settings screens.
 
-* One is the Current Page Settings.
+* One is Current Page Settings.
 ** [ Editor -> image:icons/gp_settings.png[Settings] Settings Button -> Current Page Settings]
-* Another is the Application Settings. 
+* Another is Application Settings. 
 ** [ File Manager -> image:icons/gp_menu.png[Menu] Menu -> image:icons/gp_settings.png[Settings] Settings Menu Item -> Application Settings]
 
 
@@ -332,7 +328,7 @@ image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 
 ===== Get Premium Subscription
 
-See the *Premium Subscription* section in this document.
+See *Premium Subscription* section in this document.
 
 
 
@@ -359,14 +355,11 @@ image::screenshots/gpp-global-settings.png[Global Settings]
 ===== Global Settings
 
 * Edit Toolbar Location
-** You can choose the *Edit Toolbar* location *Left* or *Right* side.
+** You can choose *Edit Toolbar* location *Left* or *Right* side.
 * S-Pen Calibration
 ** If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
 * Non S-Pen Mode
-** Check this item on if your android device does not have stylus support.
-
-
-
+** Choice this item if you use this app without stylus.
 
 
 
@@ -389,22 +382,22 @@ These features are provided for Premium Subscription.
 
 ==== How to get Premium Subscription 
 
-(1) Go to the Editor Screen.
+(1) Go to Editor Screen.
 
 (2) Tap image:icons/gp_settings.png[Settings] Settings button. The Settings Screen opens.
 
 image::screenshots/gpp-current-settings.png[Current Settings]
 
-(3) Tap image:icons/gp_premium.png[Premium] the *Get Premium Subscription* item.
+(3) Tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
 
 image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
 (4) The Premium Subscription Dialog opens and get it.
 
 
-==== Canceling the Premium Subscription
+==== How to cancel Premium Subscription
 
-(1) Go to the https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
+(1) Go to https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
 
-(2) Tap the subscription *Cancel* button.
+(2) Tap Subscription *Cancel* button.
 
