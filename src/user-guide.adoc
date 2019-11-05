@@ -14,24 +14,24 @@ Graph Paper is an idea organizing application such as mind mapping with handwrit
 
 * Directly channel your thoughts using Stylus and Finger
 * Multiple mindmaps ( central nodes ) in one document
-* PDF Export (Premium Subscription)
-* Multiple Pen Colors (Premium Subscription)
+* PDF Export (_Premium Subscription_)
+* Multiple Pen Colors (_Premium Subscription_)
 
 
 === Requirements
 
 * Android 4.4 Kitkat or newer
-* An Android tablet with S-Pen or Digitizer Stylus.
+* An Android tablet with S Pen or Digitizer Stylus.
 
 
 [NOTE]
-This app is designed for Digitizer Stylus such as S-Pen. +
-If you use this app without Digitizer Stylus, choose *Non S-Pen Mode* option in the Settings.
+This app is designed for Digitizer Stylus such as S Pen. +
+If you use this app without Digitizer Stylus, choose *Non S Pen Mode* option in the Settings.
 
 
 === Installation
 
-Get https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] app on Google Play.
+Get https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S Pen] app on Google Play.
 
 
 === Getting help
@@ -61,7 +61,7 @@ This is for writing down your thoughts and mind mapping.
 
 image::screenshots/editor-overview.png[Editor]
 
-When write down your thoughts, use *Stylus* such as S-Pen, when manipulate them, use *with Finger*.
+When write down your thoughts, use *Stylus* such as S Pen, when manipulate them, use *with Finger*.
 
 * Writing down your thoughts with strokes ( *Stylus* )
 * Erasing strokes ( *Stylus* )
@@ -89,16 +89,25 @@ ActionBar
 
 There is Pen and Eraser Toolbar on the top left.
 
-image::screenshots/pen-and-eraser-tooler.png[Pen and Eraser Toolbar]
+image::screenshots/pen-and-eraser-tooler.png[alt=Pen and Eraser Toolbar, width=78]
 
 
 ==== Edit Toolbar
 
-image::screenshots/edit-toolbar-2.png[Edit Toolbar]
+image::icons/edit-toolbar-a.svg[Edit Toolbar]
 
-* Group ( Convert a temporary group to a persistent group ) / Ungroup
+* Group ( _Convert temporary group to persistent one_ )
 * Copy group
-* Delete ( Delete group or link )
+* Delete ( _Delete group or link_ )
+* Undo
+* Redo
+
+
+image::icons/edit-toolbar-b.svg[Edit Toolbar]
+
+* Ungroup
+* Copy group
+* Delete ( _Delete group or link_ )
 * Undo
 * Redo
 
@@ -128,23 +137,26 @@ You can move and resize this temporary group with finger.
 image::screenshots/upgrade-tmp-group-to-persistent-one.png[Grouping Step 3]
 
 [NOTE]
-You can also convert from a temporary group to a presistent one with *Group* image:icons/group.png[Group] of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+Another way:  +
+You can use the *Group Icon* image:icons/group.svg[Group] of image:icons/edit-toolbar-a.svg[Edit Toolbar] in order to convert it to persistent group.
 
 
 ==== Ungrouping Group
 
-(1) Tap a group. It is selected.
+(1) Tap a group and it's selected.
 
 image::screenshots/ungrouping-step-1.png[Ungrouping Step 1]
 
 
-(2) Tap *Ungroup* image:icons/ungroup.png[Ungroup] of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+(2) Tap the *Ungroup Icon* image:icons/ungroup.svg[Ungroup] of image:icons/edit-toolbar-b.svg[Edit Toolbar].
 
 image::screenshots/ungrouping-step-3.png[Ungrouping Step 2]
 
 
 [NOTE] 
-You can also ungroup with finger gesture.
+Another way:  +
+You can use finger gesture in order to ungroup it.  +
+In details, see the following.
 
 
 ==== Ungrouping Group with finger gesture
@@ -153,7 +165,7 @@ There is a group to ungroup.
 
 image::screenshots/ungrouping-with-gesture-step-1.png[Ungrouping with gesture]
 
-(1) Draw a line in *a vertical direction* on this group *with Finger*.
+(1) Draw a line in *a vertical direction* on the group *with Finger*.
 
 image::screenshots/ungrouping-with-gesture-step-2.png[Ungrouping with gesture Step 1]
 
@@ -164,24 +176,26 @@ image::screenshots/ungrouping-with-gesture-step-3.png[Ungrouping with gesture fi
 
 ==== Deleting Group
 
-(1) Tap a group to delete. It is selected.
+(1) Tap a group to delete and it's selected.
 
-(2) Tap *Delete* image:icons/remove.png[Delete] button of *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar]
+(2) Tap the *Delete Icon* image:icons/delete.svg[Delete] of image:icons/edit-toolbar-a.svg[Edit Toolbar]
 
 
 [NOTE]
-You can also delete group with finger gesture.
+Another way:  +
+You can use finger gesture to delete group.  +
+In details, see the following.
 
 
 ==== Deleting Group with finger gesture
 
 There is a group to ungroup.
 
-(1) Draw a line in *a horizontally direction* on this group *with Finger*. This group is deleted.
+(1) Draw a line in *a horizontally direction* on the group *with Finger* and it's deleted.
 
 
 
-==== Creating Links between Groups
+==== Creating Link between Groups
 
 There are two or more groups.
 
@@ -193,7 +207,7 @@ image::screenshots/linking-step-1.png[Linking Step 0]
 image::screenshots/linking-step-2.png[Linking Step 1]
 
 
-(2) Start dragging a *Link Handle* on this source group with Finger.
+(2) Start dragging a *Link Handle* (_gray dot_) on this source group with Finger.
 
 image::screenshots/linking-step-3.png[Linking Step 2]
 
@@ -210,17 +224,17 @@ image::screenshots/linking-step-5.png[Linking finish]
 
 ==== Deleting Link
 
-(1) Tap a link (arrow) to delete. It is selected.
+(1) Tap a link (arrow) to delete and it's selected.
 
 image::screenshots/deleting-link-step-1.png[Linking Step 1]
 
 
-(2) Tap the *Delete* image:icons/remove.png[Delete] button. It is deleted.
+(2) Tap the *Delete Icon* image:icons/delete.svg[Delete] and it's deleted.
 
 image::screenshots/deleting-link-step-3.png[Linking Step 2]
 
 [NOTE]
-The *Delete* image:icons/remove.png[Delete] button is located on *Edit Toolbar* image:icons/edit-toolbar-icons.png[Edit Toolbar].
+The *Delete Icon* image:icons/delete.svg[Delete] is in image:icons/edit-toolbar-a.svg[Edit Toolbar].
 
 
 
@@ -356,9 +370,9 @@ image::screenshots/gpp-global-settings.png[Global Settings]
 
 * Edit Toolbar Location
 ** You can choose *Edit Toolbar* location *Left* or *Right* side.
-* S-Pen Calibration
-** If you use another style such as Wacom Bamboo Stylus feel or any other S-Pen compatible stylus, this option is useful.
-* Non S-Pen Mode
+* S Pen Calibration
+** If you use another style such as Wacom Bamboo Stylus feel or any other S Pen compatible stylus, this option is useful.
+* Non S Pen Mode
 ** Choice this item if you use this app without stylus.
 
 
@@ -380,7 +394,7 @@ These features are provided for Premium Subscription.
 * 2nd Pen
 
 
-==== How to get Premium Subscription 
+==== Get Premium Subscription 
 
 (1) Go to Editor Screen.
 
@@ -395,9 +409,9 @@ image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 (4) The Premium Subscription Dialog opens and get it.
 
 
-==== How to cancel Premium Subscription
+==== Cancel Premium Subscription
 
-(1) Go to https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S-Pen] on your Android phone or tablet.
+(1) Go to https://play.google.com/store/apps/details?id=com.mindboardapps.app.gp.pro[Graph Paper for S Pen] on your Android phone or tablet.
 
 (2) Tap Subscription *Cancel* button.
 
