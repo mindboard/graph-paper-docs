@@ -247,7 +247,7 @@ There are two types export area fitting option *Fit to Content* and *Fit to Pape
 
 [NOTE]
 The PDF export needs Premium Subscription. +
-In details, see *Premium Subscription* section in this document.
+In details, see the *Premium Subscription* section in this document.
 
 
 === (2) File Manager
@@ -342,7 +342,7 @@ image::screenshots/settings_pen_stroke_width.png[Pen Stroke Width Settings]
 
 ===== Get Premium Subscription
 
-See *Premium Subscription* section in this document.
+See the *Premium Subscription* section in this document.
 
 
 
@@ -379,6 +379,7 @@ image::screenshots/gpp-global-settings.png[Global Settings]
 
 == Additional Information
 
+[[PremiumSubscription]]
 === Premium Subscription 
 
 This app is free. +
@@ -386,7 +387,7 @@ But additional useful features are provided with Premium Subscription.
 If you like this app, please consider to get Premium Subscription and support this app better.
 
 
-==== Additinal useful features for Premium
+==== Premium Features
 
 These features are provided for Premium Subscription.
 
@@ -402,11 +403,11 @@ These features are provided for Premium Subscription.
 
 image::screenshots/gpp-current-settings.png[Current Settings]
 
-(3) Tap image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
+(3) Tap the image:icons/gp_premium.png[Premium] *Get Premium Subscription* item.
 
 image::screenshots/get-premium-subscription.png[Get Premium Subscription]
 
-(4) The Premium Subscription Dialog opens and get it.
+(4) Show the Premium Subscription Dialog.
 
 
 ==== Cancel Premium Subscription
